@@ -1,0 +1,24 @@
+{
+  "name": "scheduler0-lambda",
+  "version": "1.0.0",
+  "description": "an aws lambda client for scheduler 0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "zip": "zip -r lambda.zip dist"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.143",
+    "@types/node": "^18.19.44",
+    "aws-cdk": "2.16.0",
+    "aws-lambda": "^1.0.7",
+    "typescript": "^4.9.5"
+  },
+  "author": "Victor Nwaokocha",
+  "license": "ISC",
+  "dependencies": {
+    "aws-cdk-lib": "^2.151.0",
+    "aws-sdk": "^2.1672.0",
+    "constructs": "^10.0.0"
+  }
+}
